@@ -1,13 +1,13 @@
-name: first_time_screen
+name: first_time_screen_plus
 description: Widget to determine if app has been opened after installation. If it has, display a intro screen
 
 version: 1.0.3
 
-author: 'Peter Cinibulk <petercinibulk@gmail.com>'
+author: 'Harrys Crosswell <harrys.crosswell@outlook.com>'
 homepage: 'https://github.com/petercinibulk/flutter-tools/tree/master/intro_screen'
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
