@@ -15,10 +15,10 @@ class FirstTimeScreen extends StatefulWidget {
   final PageRoute landingScreen;
 
   FirstTimeScreen(
-      {Key key,
+      {Key? key,
       this.loadingScreen = const Center(child: CircularProgressIndicator()),
-      @required this.introScreen,
-      @required this.landingScreen})
+      required this.introScreen,
+      required this.landingScreen})
       : super(key: key);
 
   _FirstTimeScreenState createState() => _FirstTimeScreenState();
